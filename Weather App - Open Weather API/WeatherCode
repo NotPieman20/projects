@@ -1,0 +1,121 @@
+var country = data.getElementsByTagName('country')[0].firstChild.nodeValue;
+if(country == 'IE'){
+  var country = 'Ireland';
+}
+
+var names = data.getElementsByTagName('city')[0];
+var nm = names.getAttributeNode('name').value;
+var tempClass = data.getElementsByTagName('temperature')[0];
+var temp = tempClass.getAttributeNode('value').value;
+var condClass = data.getElementsByTagName('weather')[0];
+var cond = condClass.getAttributeNode('value').value;
+var windClass = data.getElementsByTagName('speed')[0];
+var wind = windClass.getAttributeNode('name').value;
+
+
+var html = "<h2>Results</h2>" +
+  "<table class='table table-striped'><tr><th>Country</th><th>Location</th>"+
+  "<th>Temperature</th><th>Weather</th><th>Wind</th></tr><tr><td>" + country + "</td>"+
+  "<td>" + nm + "</td><td>" + temp + "</td><td>" + cond + "</td><td>"+ wind +"</td></tr></table>"
+
+myApiKey= 9178961e333f0ee9094fabe55daf6f26
+
+
+// var day1 = data.getElementsByTagName('symbol')[0];
+// var type1 = day1.getAttributeNode('name').value;
+// var day2 = data.getElementsByTagName('symbol')[1];
+// var type2 = day2.getAttributeNode('name').value;
+// var day3 = data.getElementsByTagName('symbol')[2];
+// var type3 = day1.getAttributeNode('name').value;
+// var day4 = data.getElementsByTagName('symbol')[3];
+// var type4 = day1.getAttributeNode('name').value;
+// var day5 = data.getElementsByTagName('symbol')[4];
+// var type5 = day1.getAttributeNode('name').value;
+
+//
+// var day1t = data.getElementsByTagName('temperature')[0];
+// var type1t = day1t.getAttributeNode('day').value;
+// var day2t = data.getElementsByTagName('temperature')[1];
+// var type2t = day2t.getAttributeNode('day').value;
+// var day3t = data.getElementsByTagName('temperature')[2];
+// var type3t = day1t.getAttributeNode('day').value;
+// var day4t = data.getElementsByTagName('temperature')[3];
+// var type4t = day1t.getAttributeNode('day').value;
+// var day5t = data.getElementsByTagName('temperature')[2];
+// var type5t = day1t.getAttributeNode('day').value;
+//
+// var day1Ma = data.getElementsByTagName('temperature')[0];
+// var type1Ma = day1Ma.getAttributeNode('max').value;
+// var day2Ma = data.getElementsByTagName('temperature')[1];
+// var type2Ma = day2Ma.getAttributeNode('max').value;
+// var day3Ma = data.getElementsByTagName('temperature')[2];
+// var type3Ma = day1Ma.getAttributeNode('max').value;
+// var day4Ma = data.getElementsByTagName('temperature')[3];
+// var type4Ma = day1Ma.getAttributeNode('max').value;
+// var day5Ma = data.getElementsByTagName('temperature')[2];
+// var type5Ma = day1Ma.getAttributeNode('max').value;
+
+// var day1Min = data.getElementsByTagName('temperature')[0];
+// var type1Min = day1Min.getAttributeNode('min').value;
+// var day2Min = data.getElementsByTagName('temperature')[1];
+// var type2Min = day2Min.getAttributeNode('min').value;
+// var day3Min = data.getElementsByTagName('temperature')[2];
+// var type3Min = day1Min.getAttributeNode('min').value;
+// var day4Min = data.getElementsByTagName('temperature')[3];
+// var type4Min = day1Min.getAttributeNode('min').value;
+// var day5Min = data.getElementsByTagName('temperature')[2];
+// var type5Min = day1Min.getAttributeNode('min').value;
+
+// var day1Clouds = data.getElementsByTagName('clouds')[0];
+// var type1Clouds = day1Clouds.getAttributeNode('value').value;
+// var day2Clouds = data.getElementsByTagName('clouds')[1];
+// var type2Clouds = day2Clouds.getAttributeNode('value').value;
+// var day3Clouds = data.getElementsByTagName('clouds')[2];
+// var type3Clouds = day1Clouds.getAttributeNode('value').value;
+// var day4Clouds = data.getElementsByTagName('clouds')[3];
+// var type4Clouds = day1Clouds.getAttributeNode('value').value;
+// var day5Clouds = data.getElementsByTagName('clouds')[2];
+// var type5Clouds = day1Clouds.getAttributeNode('value').value;
+
+
+chart1
+var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, {
+type: 'bar',
+data: {
+  labels: day,
+  datasets: [{
+      label: '# of Votes',
+      data: type1t,
+      backgroundColor: [
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)',
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(153, 102, 255, 0.2)',
+          'rgba(255, 159, 64, 0.2)'
+      ],
+      borderColor: [
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)',
+          'rgba(75, 192, 192, 1)',
+          'rgba(153, 102, 255, 1)',
+          'rgba(255, 159, 64, 1)'
+      ],
+      borderWidth: 1
+  }]
+},
+options: {
+  scales: {
+      yAxes: [{
+          ticks: {
+              beginAtZero:true
+          }
+      }]
+  }
+}
+});
+
+
+chart2

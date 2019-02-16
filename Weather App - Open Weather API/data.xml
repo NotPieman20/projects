@@ -1,0 +1,89 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<weatherdata>
+<location>
+  <name>Athlone</name>
+  <type/>
+  <country>IE</country>
+  <timezone/>
+  <location altitude="0" latitude="53.4246" longitude="-7.9406" geobase="geonames" geobaseid="2966839"/>
+</location>
+<credit/>
+<meta>
+<lastupdate/>
+<calctime>0.0026</calctime>
+<nextupdate/>
+</meta>
+<sun rise="2018-11-04T07:37:48" set="2018-11-04T16:52:05"/>
+<forecast>
+  <time from="2018-11-04T21:00:00" to="2018-11-05T00:00:00">
+  <symbol number="500" name="light rain" var="10n"/>
+  <precipitation unit="3h" value="1.59" type="rain"/>
+  <windDirection deg="31.5046" code="NNE" name="North-northeast"/>
+  <windSpeed mps="3.57" name="Gentle Breeze"/>
+  <temperature unit="kelvin" value="280.85" min="280.85" max="280.851"/>
+  <pressure unit="hPa" value="1006.24"/>
+  <humidity value="97" unit="%"/>
+  <clouds value="overcast clouds" all="92" unit="%"/>
+</time>
+<time from="2018-11-05T00:00:00" to="2018-11-05T03:00:00">
+  <symbol number="501" name="moderate rain" var="10n"/>
+  <precipitation unit="3h" value="3.83" type="rain"/>
+  <windDirection deg="27.0019" code="NNE" name="North-northeast"/>
+  <windSpeed mps="4.84" name="Gentle Breeze"/>
+  <temperature unit="kelvin" value="281.58" min="281.575" max="281.58"/>
+  <pressure unit="hPa" value="1004.98"/>
+  <humidity value="98" unit="%"/>
+  <clouds value="overcast clouds" all="92" unit="%"/>
+</time>
+<time from="2018-11-05T03:00:00" to="2018-11-05T06:00:00">
+  <symbol number="500" name="light rain" var="10n"/>
+  <precipitation unit="3h" value="2.05" type="rain"/>
+  <windDirection deg="72.5005" code="ENE" name="East-northeast"/>
+  <windSpeed mps="3.14" name="Light breeze"/>
+  <temperature unit="kelvin" value="282.63" min="282.625" max="282.63"/>
+  <pressure unit="hPa" value="1004.28"/>
+  <humidity value="98" unit="%"/>
+  <clouds value="overcast clouds" all="100" unit="%"/>
+</time>
+<time from="2018-11-05T06:00:00" to="2018-11-05T09:00:00">
+  <symbol number="500" name="light rain" var="10d"/>
+  <precipitation unit="3h" value="0.275" type="rain"/>
+  <windDirection deg="138.002" code="SE" name="SouthEast"/>
+  <windSpeed mps="3.76" name="Gentle Breeze"/>
+  <temperature unit="kelvin" value="283.33" min="283.326" max="283.33"/>
+  <pressure unit="hPa" value="1004.8"/>
+  <humidity value="99" unit="%"/>
+  <clouds value="broken clouds" all="64" unit="%"/>
+</time>
+<time from="2018-11-05T09:00:00" to="2018-11-05T12:00:00">
+<symbol number="500" name="light rain" var="10d"/>
+<precipitation unit="3h" value="0.0099999999999998" type="rain"/>
+<windDirection deg="138.501" code="SE" name="SouthEast"/>
+<windSpeed mps="4.07" name="Gentle Breeze"/>
+<temperature unit="kelvin" value="284.882" min="284.882" max="284.882"/>
+<pressure unit="hPa" value="1004.25"/>
+<humidity value="94" unit="%"/>
+<clouds value="broken clouds" all="56" unit="%"/>
+</time>
+<time from="2018-11-05T12:00:00" to="2018-11-05T15:00:00">
+<symbol number="500" name="light rain" var="10d"/>
+<precipitation unit="3h" value="0.1" type="rain"/>
+<windDirection deg="131.005" code="SE" name="SouthEast"/>
+<windSpeed mps="4.47" name="Gentle Breeze"/>
+<temperature unit="kelvin" value="285.051" min="285.051" max="285.051"/>
+<pressure unit="hPa" value="1002.24"/>
+<humidity value="88" unit="%"/>
+<clouds value="overcast clouds" all="92" unit="%"/>
+</time>
+<time from="2018-11-05T15:00:00" to="2018-11-05T18:00:00">
+<symbol number="500" name="light rain" var="10n"/>
+<precipitation unit="3h" value="0.23" type="rain"/>
+<windDirection deg="132" code="SE" name="SouthEast"/>
+<windSpeed mps="5.31" name="Gentle Breeze"/>
+<temperature unit="kelvin" value="283.705" min="283.705" max="283.705"/>
+<pressure unit="hPa" value="1000.47"/>
+<humidity value="95" unit="%"/>
+<clouds value="broken clouds" all="56" unit="%"/>
+</time>
+</forecast>
+</weatherdata>
